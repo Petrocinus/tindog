@@ -7,6 +7,7 @@ body {
 #title {
     background-color: #ff4c68;
     color: #fff;
+    margin-top: 0;
 }
 
 
@@ -32,7 +33,7 @@ p {
 }
 
 .container {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 
@@ -52,7 +53,10 @@ i {
 }
 
 .img-nav {
+    transform: rotate(25deg);
+    position: absolute;
     width: 65%;
+    right: 30%;
 }
 
 .nav-item {
@@ -71,18 +75,14 @@ i {
     font-family: 'Montserrat-Light';
 }
 
-.rotated {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    align-items: centre;
-}
 
 /* Features */
 
 #features {
-
+    position: relative;
+    z-index: 1;
     padding: 7% 15%;
+    background-color: #fff;
 
 }
 
@@ -118,6 +118,8 @@ i {
 .testimonial-text{
     text-align: center;
 }
+/* yet didnt found solution for the height */
+
 
 .carousel-item {
     padding: 7% 15%;
@@ -134,4 +136,33 @@ i {
 .press-img {
     margin: 20px 20px 50px;
     width: 15%;
+}
+
+
+/* Pricing */
+
+#pricing {
+    padding: 80px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+
+/* Call to Action */
+
+#cta {
+    background-color: #cf8172;
+    color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
 }
