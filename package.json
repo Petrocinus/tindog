@@ -1,0 +1,23 @@
+{
+  "name": "tindog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cellard/tindog.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cellard/tindog/issues"
+  },
+  "homepage": "https://github.com/Cellard/tindog#readme",
+  "dependencies": {
+    "bootstrap": "^4.0",
+    "bootstrap-icons": "^1.10.2"
+  }
+}
